@@ -44,14 +44,14 @@ def upload_image(request):
 
 # Firebase config
 config = {
-    'apiKey': "AIzaSyAM7b26IhvB75SvpN-bHaKHMtAArWJimuw",
-    'authDomain': "breastcancerinsight.firebaseapp.com",
-    'databaseURL': "https://breastcancerinsight-default-rtdb.firebaseio.com/",
-    'projectId': "breastcancerinsight",
-    'storageBucket': "breastcancerinsight.appspot.com",
-    'messagingSenderId': "338793847759",
-    'appId': "1:338793847759:web:d870384012e935507790ba",
-    'measurementId': "G-QPGDD2LQTY"
+    'apiKey': "",
+    'authDomain': "",
+    'databaseURL': "",
+    'projectId': "",
+    'storageBucket': "",
+    'messagingSenderId': "",
+    'appId': "::web:",
+    'measurementId': ""
 }
 
 firebase = pyrebase.initialize_app(config)
